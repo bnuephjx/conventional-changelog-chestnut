@@ -1,0 +1,34 @@
+{
+  "name": "conventional-changelog-chestnut",
+  "version": "1.0.0",
+  "description": "conventional-changelog chestnut release-it",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 -n ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/bnuephjx/conventional-changelog-chestnut.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "chestnut",
+    "release-it"
+  ],
+  "author": "bnuephjx",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.3",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
