@@ -4,6 +4,7 @@
   "description": "conventional-changelog chestnut release-it",
   "main": "index.js",
   "scripts": {
+    "release": "release-it",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 -n ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,12 +22,13 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@release-it/bumper": "^2.0.0",
     "commitizen": "^4.2.3",
     "compare-func": "^2.0.0",
     "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.8",
-    "q": "^1.5.1"
+    "release-it": "^14.2.2"
   },
   "config": {
     "commitizen": {

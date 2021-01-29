@@ -1,6 +1,5 @@
 {
   "hooks": {
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
 }

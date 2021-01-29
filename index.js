@@ -1,10 +1,10 @@
 "use strict";
 const Q = require("q");
-const conventionalChangelog = require("./conventional-changelog");
-const parserOpts = require("./parser-opts");
-const recommendedBumpOpts = require("./conventional-recommended-bump");
-const writerOpts = require("./writer-opts");
-const gitRawCommitsOpts = require("./git-raw-commit");
+const conventionalChangelog = require("./lib/conventional-changelog");
+const parserOpts = require("./lib/parser-opts");
+const recommendedBumpOpts = require("./lib/conventional-recommended-bump");
+const writerOpts = require("./lib/writer-opts");
+const gitRawCommitsOpts = require("./lib/git-raw-commit");
 
 module.exports = Q.all([
   conventionalChangelog,
