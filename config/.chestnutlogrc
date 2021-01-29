@@ -1,0 +1,50 @@
+{
+  "types": [
+    {
+      "type": "feat",
+      "alias": "Features"
+    },
+    {
+      "type": "fix",
+      "alias": "Bug Fixes"
+    },
+    {
+      "type": "perf",
+      "alias": "Performance Improvements"
+    },
+    {
+      "type": "revert",
+      "alias": "Reverts"
+    },
+    {
+      "type": "docs",
+      "alias": "Documentation"
+    },
+    {
+      "type": "style",
+      "alias": "Styles"
+    },
+    {
+      "type": "refactor",
+      "alias": "Code Refactoring"
+    },
+    {
+      "type": "test",
+      "alias": "Tests"
+    },
+    {
+      "type": "build",
+      "alias": "Build System"
+    },
+    {
+      "type": "ci",
+      "alias: "Continuous Integration"
+    },
+    {
+      "type": "chore",
+      "alias": "Chores"
+    }
+  ],
+  authorName: false,
+  authorEmail: false
+}
