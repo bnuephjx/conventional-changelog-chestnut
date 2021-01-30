@@ -1,36 +1,84 @@
 # conventional-changelog-chestnut
 
-#### Description
-conventional-changelog
+#### Introduce
 
-#### Software Architecture
-Software architecture description
+A `conventional-changelog` log template
 
-#### Installation
+The reference to[conventional-changelog-angular](https://github.com/conventional-changelog/conventional-changelog)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Installation preparation
 
-#### Instructions
+Make sure you install the dependent packages first
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- [commitizen](https://github.com/commitizen/cz-cli)
+- [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
+- [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli)
 
-#### Contribution
+#### Install
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+```markdown
+npm install conventional-changelog-chestnut --save-dev
+```
 
+#### Use
 
-#### Gitee Feature
+```json
+{
+	"scripts": {
+		"changelog": "conventional-changelog -p chestnut -i CHANGELOG.md -s -r 0"
+	}
+}
+```
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Configuration
+
+It needs to be in the project root directory create `.chestnutlogrc` file，A reference document is provided [here](https://gitee.com/bnuephjx/conventional-changelog-chestnut/blob/master/config/.chestnutlogrc)
+
+##### types
+
+type:  `Array`
+
+The default parameter type is based on[commitizen](https://github.com/commitizen/cz-cli)provide，According to the `git commit message`的`type` output the log
+
+Array element Settings must contain the `type` and `alias` fields
+
+The array must have at least one item, otherwise the default configuration is used
+
+```
+{
+  "types": [
+    {
+      "type": "feat",
+      "alias": "Features"
+    }
+  ]
+}
+```
+
+##### authorName
+
+type: `Boolean`, default: `false`
+
+show the submitter
+
+```
+{
+	"authorName": false
+}
+```
+
+##### authorEmail
+
+type: `Boolean`, default: `false`
+
+show the Email of submitter
+
+```
+{
+	"authorEmail": false
+}
+```
+
+#### License
+
+MIT © [bnuephjx](https://gitee.com/bnuephjx)
