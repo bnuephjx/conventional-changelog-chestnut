@@ -45,6 +45,6 @@
       "alias": "Chores"
     }
   ],
-  authorName: false,
-  authorEmail: false
+  "authorName": false,
+  "authorEmail": false
 }

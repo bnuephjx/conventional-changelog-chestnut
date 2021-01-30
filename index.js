@@ -13,7 +13,7 @@ module.exports = Q.all([
   writerOpts,
   gitRawCommitsOpts
 ]).spread(
-  (conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts, gitRawommitsOpts) => {
+  (conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts, gitRawCommitsOpts) => {
     return {
       conventionalChangelog,
       parserOpts,
