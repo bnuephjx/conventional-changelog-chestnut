@@ -18,7 +18,18 @@
   {{~else}}
     {{~@root.repoUrl}}
   {{~/if}}/
-  {{~@root.commit}}/{{hash}})){{~#if authorName}} by: **{{authorName}}**{{~/if}}{{~#if authorEmail}} ({{authorEmail}}){{~/if}}
+  {{~@root.commit}}/{{hash}}))
+  {{~#if authorName}}
+    {{~#if authorEmail}}
+ by: **{{authorName}}** ({{authorEmail}})
+    {{~else}}
+ by: **{{authorName}}**
+    {{~/if}}  
+  {{~else}}
+    {{~#if authorEmail}}
+ by: **{{authorEmail}}**
+    {{~/if}}
+  {{~/if}}
 
 {{~else}}
   {{~shortHash}}
