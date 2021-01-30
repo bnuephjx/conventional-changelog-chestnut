@@ -1,4 +1,32 @@
+## [1.1.2](https://gitee.com/bnuephjx/conventional-changelog-chestnut/compare/1.1.1...1.1.2) (2021-01-30)
+
+
+### Bug Fixes
+
+* **writer-opts.js:** config valiate and get config path ([66520f8](https://gitee.com/bnuephjx/conventional-changelog-chestnut/commits/66520f839b8b95d7bb0a7ec83fc7b096052684b5))
+
+
+### Chores
+
+* **readme.en.md:** update ([c74f629](https://gitee.com/bnuephjx/conventional-changelog-chestnut/commits/c74f629eabe69d66bee25f2494b06a33b38ac257))
+
+
+### Code Refactoring
+
+* format ([da80355](https://gitee.com/bnuephjx/conventional-changelog-chestnut/commits/da80355d22d20b25b57f8ea5ccb8d42999accc43))
+
+
+### Documentation
+
+* **readme:** update ([6d750c4](https://gitee.com/bnuephjx/conventional-changelog-chestnut/commits/6d750c4120f5f053ad689e4b517df2b6b1d70b7d))
+
+
 ## [1.1.1](https://gitee.com/bnuephjx/conventional-changelog-chestnut/compare/1.1.0...1.1.1) (2021-01-30)
+
+
+### Chores
+
+* release v1.1.1 ([c3b42bd](https://gitee.com/bnuephjx/conventional-changelog-chestnut/commits/c3b42bdfa06113b5998568782d2a4e03714cfd3d))
 
 
 ### Code Refactoring
