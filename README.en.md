@@ -38,7 +38,7 @@ It needs to be in the project root directory create `.chestnutlogrc` file，A re
 
 type:  `Array`
 
-The default parameter type is based on[commitizen](https://github.com/commitizen/cz-cli)provide，According to the `git commit message`的`type` output the log
+The default parameter type is based on [commitizen](https://github.com/commitizen/cz-cli) provide，According to the `git commit message`的`type` output the log
 
 Array element Settings must contain the `type` and `alias` fields
 
