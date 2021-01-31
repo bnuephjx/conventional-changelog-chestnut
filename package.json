@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/bnuephjx/conventional-changelog-chestnut.git"
+    "url": "git+https://github.com/bnuephjx/conventional-changelog-chestnut.git"
   },
   "keywords": [
     "conventional-changelog",
@@ -19,6 +19,10 @@
   ],
   "author": "bnuephjx",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bnuephjx/conventional-changelog-chestnut/issues"
+  },
+  "homepage": "https://github.com/bnuephjx/conventional-changelog-chestnut#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
